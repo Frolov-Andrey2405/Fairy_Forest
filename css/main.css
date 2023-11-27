@@ -133,3 +133,7 @@ body {
     transition: var(--transition);
     will-change: transform;
 }
+
+.content {
+    will-change: transform;
+}
