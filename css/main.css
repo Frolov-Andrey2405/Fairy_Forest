@@ -9,3 +9,14 @@
     --text: #e7e7e0;
     --transition: transform .75s cubic-bezier(.075, .5, 0, 1);
 }
+
+@font-face {
+    font-family: raleway_f;
+    src: url(assets/fonts/raleway-regular.woff2);
+}
+
+@font-face {
+    font-family: raleway_f;
+    src: url(assets/fonts/raleway-black.woff2);
+    font-weight: 900;
+}
