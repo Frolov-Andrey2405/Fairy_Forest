@@ -53,3 +53,14 @@ body {
     overflow: hidden;
     position: relative;
 }
+
+.layer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    will-change: transform;
+    z-index: 2;
+    transition: var(--transition);
+}
